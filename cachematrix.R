@@ -1,5 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This code creates an object with four methods (set, get, setinverse,
+## and getinverse), which, respectively, set and get a matrix, and get
+## and set the matrix's inverse, caching the value of the inverse the
+## first time it is calculated with "solve", and then returning the
+## cached value each time it is called for until the matrix value is
+## changed with the "set" function.
 
 ## makeCacheMatrix creates an object, which is a list of functions
 ## for getting and setting the matrix itself, as well as its inverse
